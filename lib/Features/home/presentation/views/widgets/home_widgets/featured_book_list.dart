@@ -19,7 +19,6 @@ class FeaturedBooksList extends StatelessWidget {
           return SizedBox(
             height: MediaQuery.of(context).size.height * .34,
             child: ListView.builder(
-              // BouncingScrollPhysics to make scroll more cute and disable light when scroll end
                 physics: const BouncingScrollPhysics(),
                 itemCount: state.books.length,
                 scrollDirection: Axis.horizontal,
