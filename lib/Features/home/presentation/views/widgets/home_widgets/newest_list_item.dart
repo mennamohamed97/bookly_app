@@ -28,7 +28,6 @@ class NewestBookListItem extends StatelessWidget {
             const SizedBox(
               width: 30,
             ),
-            // expanded mean it take all available space
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
