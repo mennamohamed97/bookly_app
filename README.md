@@ -45,7 +45,7 @@ Follow these steps to set up and run the Bookly app:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/bookly.git
+   git clone https://github.com/mennamohamed97/bookly_app.git
    ```
 
 2. **Navigate to the project directory:**
