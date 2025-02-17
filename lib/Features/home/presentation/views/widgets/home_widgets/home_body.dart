@@ -11,9 +11,6 @@ class HomeBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // CustomScrollView to make all home scroll
-    // it use slivers
-    // in slivers put SliverToBoxAdapter to each weight i want to scroll
     return const CustomScrollView(
       physics: BouncingScrollPhysics(),
       slivers: [
@@ -46,8 +43,6 @@ class HomeBody extends StatelessWidget {
             ],
           ),
         ),
-        // SliverFillRemaining child will fill the empty place
-        // SliverToBoxAdapter A fixed-height container should make shrinkWrap of list be true
         SliverToBoxAdapter(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 30),
