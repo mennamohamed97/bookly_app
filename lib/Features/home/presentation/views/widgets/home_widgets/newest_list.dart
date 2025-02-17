@@ -18,8 +18,6 @@ class NewestList extends StatelessWidget {
             physics: const NeverScrollableScrollPhysics(),
             padding: EdgeInsets.zero,
             itemCount: state.books.length,
-            // shrinkWrap when it true it make list build all its items in one time
-            // better not use take it build items appear in screen
             shrinkWrap: true,
             itemBuilder: (context, index) {
               return Padding(
