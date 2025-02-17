@@ -9,9 +9,6 @@ import 'package:bookly/Features/home/presentation/views/widgets/book_rating.dart
 
 class NewestBookListItem extends StatelessWidget {
   const NewestBookListItem({super.key, required this.bookModel});
-  // don't use many objects here like image and title
-  // bec that violates encapsulation principles in oop
-  // we should encapsulate all vars in one object
   final BookModel bookModel;
   @override
   Widget build(BuildContext context) {
