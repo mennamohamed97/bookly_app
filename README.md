@@ -21,25 +21,21 @@ Bookly is a mobile application designed to help users discover and explore free 
 🔍 Search Books :
 
 - Search for books by title using the Google Books API.
-
 - Get instant results with relevant book details.
 
 📖 Featured Books :
 
 - Discover handpicked featured books from various categories.
-
 - Stay updated with popular and trending reads.
 
 🆕 Newest Books :
 
 - Explore the latest books added to the collection.
-
 - Find fresh and exciting reads every time you open the app.
 
 📚 Similar Books :
 
 - Get personalized book recommendations based on your interests.
-
 - Find books similar to your favorite reads.
 
 
